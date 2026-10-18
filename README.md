@@ -39,8 +39,8 @@
 
 ```bash
 # 两个版本都支持
-PDF去水印工具_完整版.exe --cli 输入.pdf [输出.pdf]
-PDF去水印工具_轻量版.exe --cli 输入.pdf [输出.pdf]
+PDF-Watermark-Remover-Full.exe --cli 输入.pdf [输出.pdf]
+PDF-Watermark-Remover-Lite.exe --cli 输入.pdf [输出.pdf]
 ```
 
 ## 🔧 工作原理
