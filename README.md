@@ -35,6 +35,24 @@
 | `PDF-Watermark-Remover-Full.exe`（完整版） | 按钮式窗口界面，带文件列表与日志 |
 | `PDF-Watermark-Remover-Lite.exe`（轻量版） | 无窗口，双击选文件 / 拖拽即处理 |
 
+## 🔐 校验（SHA256）
+
+下载后可核对文件的 SHA256，确认文件**完整、未被篡改**：
+
+| 文件 | SHA256 |
+| --- | --- |
+| `PDF-Watermark-Remover-Full.exe` | `FCCDCEC536AA81255FCF3C7113DAFA65ABD52E191A2F0009E46901372515C540` |
+| `PDF-Watermark-Remover-Lite.exe` | `A0BB093A6BE8731F22260F034043F76C2468CFE4B15D39691B3B1B41AD300E27` |
+
+**Windows 下核对方法**（PowerShell 里执行）：
+
+```powershell
+Get-FileHash .\PDF-Watermark-Remover-Full.exe -Algorithm SHA256
+Get-FileHash .\PDF-Watermark-Remover-Lite.exe -Algorithm SHA256
+```
+
+把输出的 `Hash` 和上表逐字对比，一致即说明下载的文件就是作者发布的原文件。
+
 ## 🖥️ 命令行
 
 ```bash
