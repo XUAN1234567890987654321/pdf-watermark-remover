@@ -1,5 +1,9 @@
 # PDF 去水印工具 · PDF Watermark Remover
 
+[![Download](https://img.shields.io/badge/Download-最新版%20exe-2ea44f?style=for-the-badge)](https://github.com/XUAN1234567890987654321/pdf-watermark-remover/releases/latest)
+
+> ⬇️ **下载 exe 点上面绿色按钮**，或到 [Releases](https://github.com/XUAN1234567890987654321/pdf-watermark-remover/releases/latest) 页面。
+
 一个**离线、免安装、单文件**的 PDF 矢量水印去除工具。双击即用，无需 Python、无需联网。（小登第一次做东西，用大肥鱼跑的，感觉挺好用的就发出来了，多多包涵🙏😭）
 
 > 用于去除 PDF 中以「矢量图形对象」形式绘制的水印——也就是水印本身是 PDF 里一段独立的绘图块，而非烙进图片像素里的那种。
