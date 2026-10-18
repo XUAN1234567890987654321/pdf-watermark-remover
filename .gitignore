@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.spec
+build/
+dist/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地上传脚本（不上传到公开仓库）
+上传更新.bat
+
+# 打包产物（exe 走 Releases，不进仓库）
+release/
